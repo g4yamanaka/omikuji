@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+	<head>
+	    <meta charset="utf-8">
+	    <title>おみくじ</title>
+	    <link rel="stylesheet" href="/css/style.css">
+	</head>
+	<body>
+		<h1>おみくじ</h1>
+		<p>名前を入力してください占うボタンを押してください</p>
+		<form method="post" th:action="@{'/omikuzi'}">
+			<span>name: </span>
+			<input type="text" name="name" value="" />
+		<br />
+		<p th:if="${playerName} != null" th:text="${playerName} + 'さんの占い結果です'"></p>
+	    <input type="submit" name="fortune" value="占う">
+	</form>
+	<div>
+	    <div class="result">
+			<h1 th:text="${fortuneMessage}"></h1>
+	        <img th:if="${fortuneMessage} == null" src="/images/omikuzi/question.png" alt="はてな">
+	        <div class="message"><p th:text="${fortuneComment}">おみくじを引いてください</p></div>
+	    </div>
+	</div>
+	</body>
+</html>
