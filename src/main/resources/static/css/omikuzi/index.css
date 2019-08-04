@@ -1,7 +1,7 @@
 .bg-wrapper {
   width: 100vw;
   height: 100vh;
-  background-image: url(./img/tatemono_jinja.png);
+  background-image: url(../../images/omikuzi/tatemono_jinja.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100vh;
