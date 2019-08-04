@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+<meta charset="UTF-8" />
+<title>omikuji - kekka</title>
+<link rel="stylesheet" th:href="@{/css/omikuzi/result.css}" />
+</head>
+<body>
+	<div class="container">
+		<div class="omikuji">
+			<div class="result">
+				<h1 th:text="${fortuneMessage}"></h1>
+			</div>
+			<div class="description">
+				<p th:text="${fortuneComment}"></p>
+			</div>
+		</div>
+		<div class="back">
+			<a th:href="@{'/omikuzi/home'}">
+			<button class="back-btn">
+				<span class="btn-text">戻る</span>
+			</button>
+			</a>
+		</div>
+	</div>
+</body>
+</html>

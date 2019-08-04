@@ -1,0 +1,43 @@
+.bg-wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../../images/omikuzi/tatemono_jinja.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100vh;
+  background-position: center center;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 100px 2fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.title {
+  grid-row: 1;
+  grid-column: 2;
+  text-align: center;
+  color: rgb(249, 249, 249);
+  background-color: rgba(128, 128, 128, 0.9);
+  border-radius: 5px;
+  font-size: 1.2em;
+}
+
+.draw {
+  grid-row: 3;
+  grid-column: 2;
+  text-align: center;
+}
+
+.draw-button {
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: rgb(192, 192, 192);
+}
+
+.draw-text {
+  color: rgb(249, 249, 249);
+  font-size: 3em;
+}
