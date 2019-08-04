@@ -41,7 +41,7 @@ public class OmikuziService {
     public String getResultComment(String result) {
         String resultComment = "";
 
-        final String DAIKICHI_COMMENT = "大吉です！きっと明日はいい天気になります。ラッキーカラーは緑です。大吉です！きっと明日はいい天気になります。ラッキーカラーは緑です。大吉です！きっと明日はいい天気になります。ラッキーカラーは緑です。大吉です！きっと明日はいい天気になります。ラッキーカラーは緑です。大吉です！きっと明日はいい天気になります。ラッキーカラーは緑です。大吉です！きっと明日はいい天気になります。ラッキーカラーは緑です。";
+        final String DAIKICHI_COMMENT = "大吉です！きっと明日はいい天気になります。ラッキーカラーは緑です。大吉です！きっと明日はいい天気になります。ラッキーカラーは緑です。大吉です！きっと明日はいい天気になります。ラッキーカラーは緑です。大吉です！きっと明日はいい天気になります。ラッキーカラーは緑です。";
         final String TYUKICHI_COMMENT = "中吉です、いつも以上に楽しく過ごせるでしょう";
         final String SYOKICHI_COMMENT = "小吉です、いつものように穏やかに過ごせるでしょう";
         final String KYO_COMMENT = "凶です、忘れ物など身の回りには要注意・・・";
