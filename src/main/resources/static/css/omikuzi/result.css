@@ -17,7 +17,7 @@ body {
 
   display: grid;
   grid-template-rows: 50px 1fr;
-  background-image: url(./img/p0526_m.png);
+  background-image: url(../../images/omikuzi/p0526_m.png);
   border-radius: 5px;
 
   animation-name: fade-in;
